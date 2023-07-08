@@ -21,6 +21,14 @@ Content-Type: application/json
 
 PATCH http://localhost:3000/categories/1
 
+Content-Type: application/json
+
+{
+  "name": "Category 1 Updated"
+}
+
+
+
 ###
 
 DELETE http://localhost:3000/categories/1
