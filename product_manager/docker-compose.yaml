@@ -8,4 +8,9 @@ services:
       - 3000:3000
     volumes:
       - .:/home/node/app
+    depends_on:
+      - db
 
+  db:
+    image: mysql:8.0.30-debian
+    env_file: .env
