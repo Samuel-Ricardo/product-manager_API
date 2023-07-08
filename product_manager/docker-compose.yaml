@@ -3,14 +3,24 @@ version: '3'
 services:
     
   app:
+    restart: always
     build: .
     ports:
       - 3000:3000
     volumes:
       - .:/home/node/app
     depends_on:
+      - app_db_setup
+
+  app_db_setup:
+    build: .
+    volumes:
+      - .:/home/node/app
+    command: npm run database:setup
+    depends_on:
       - db
 
   db:
+    restart: always
     image: mysql:8.0.30-debian
     env_file: .env
