@@ -24,3 +24,5 @@ services:
     restart: always
     image: mysql:8.0.30-debian
     env_file: .env
+    ports:
+      - 3306:3306
