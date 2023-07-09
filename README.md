@@ -69,3 +69,98 @@
 <h2 id="app">
   💻 | Application:
 </h2>
+
+
+<p id="routes"/>
+
+
+> API Example:
+
+```bash
+$ product_manager > api.http
+
+
+### Category ###
+
+###
+
+GET http://localhost:3000/category
+
+###
+
+GET http://localhost:3000/category/1
+
+###
+
+POST http://localhost:3000/category
+Content-Type: application/json
+
+{
+  "name": "Category 1i2"
+}
+
+###
+
+PATCH http://localhost:3000/category/1
+Content-Type: application/json
+
+{
+  "name": "Category 1 Updated"
+}
+
+
+
+###
+
+DELETE http://localhost:3000/category/1
+
+###
+
+
+
+### Products ###
+
+
+###
+
+GET http://localhost:3000/products
+
+###
+
+GET http://localhost:3000/products/1
+
+###
+
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+  "name"  : "Product 1",
+  "price" : 100,
+  "categoryId": 1
+}
+
+###
+
+PATCH http://localhost:3000/products/1
+Content-Type: application/json
+
+{
+  "name"  : "Product 1 Updated",
+  "price" : 50
+}
+
+
+
+###
+
+DELETE http://localhost:3000/products/1
+
+###
+
+
+```
+#
+
+<br>
+
