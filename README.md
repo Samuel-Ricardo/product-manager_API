@@ -31,3 +31,41 @@
 
 <p id="project"/>
 
+<h2>  | :artificial_satellite: About:  </h2>
+
+<p>
+    This API is a tradicional CRUD that make the essentials operations like Create, Update and Delete Products that have relation with Category in MySQL database integrates using Prisma, all that using middlewares, Clean Architeture, Data Validations and more.
+</p>
+
+<br>
+
+<h2 id="techs">
+  :building_construction: | Technologies and Concepts Studied:
+</h2>
+
+> <a href='https://nestjs.com/'> <img width="48px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain-wordmark.svg" /> </a>
+
+- NestJS
+- Prisma
+- MySQL
+- Typescript
+- JS
+- Test
+- Jest  
+- Docker
+- eslint
+- prettier
+- husky
+- class-validator
+- class-tranformer
+- lint-sataged
+
+> Among Others...
+
+<br>
+
+#
+
+<h2 id="app">
+  💻 | Application:
+</h2>
